@@ -82,7 +82,7 @@ stages:
           - download: current
             artifact: drop
           - task: AzureWebApp@1
-            displayName: 'Azure App Service Deploy: website'
+            displayName: 'Azure App Service Deploy: website madan'
             inputs:
               azureSubscription: 'tailspin-space-game-rg'
               appName: '$(WebAppName)'
